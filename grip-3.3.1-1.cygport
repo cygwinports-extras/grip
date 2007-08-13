@@ -1,0 +1,9 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ CD ripper"
+HOMEPAGE="http://www.nostatic.org/grip/"
+SRC_URI="mirror://sourceforge/grip/${P}.tar.gz"
+
+DIFF_EXCLUDES="stamp-cat-id"
+
+CYGCONF_ARGS="--enable-cdio-paranoia"
